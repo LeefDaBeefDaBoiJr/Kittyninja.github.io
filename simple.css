@@ -1,0 +1,16 @@
+// let's say we have our div class = "center" but we have another div with class = "center" outside a span
+
+// our first div is inside a span, so this is how we access just that one:
+
+span .center {
+// center the div
+
+margin-left: 40%;
+margin-right: 40%;
+
+// you have to make those equal, leaving the space in the center for the div to be 20% of the page width.
+// a few touches up:
+box-shadow:20px 20px 50px grey;  
+background-color: black;
+
+}
