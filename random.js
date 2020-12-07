@@ -1,5 +1,5 @@
 /*
-Whatever you set your "min" or "max" to, this little trick makes your randomNum a random number between 3 and 7.
+Whatever you set your "min" or "max" to, this little trick makes your randomNum a random number between "min" and "max".
 */
 
 
@@ -20,3 +20,6 @@ Whatever you set your "min" or "max" to, this little trick makes your randomNum 
     randomNum = Math.round(Math.random()*difference)+parseInt(min)
     console.log(randomNum)
     }
+
+
+
