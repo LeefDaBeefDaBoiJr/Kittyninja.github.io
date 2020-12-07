@@ -1,0 +1,15 @@
+/* css hover tool */
+
+/* change the classes to your div or whatever thing you want the hover on. */
+
+
+// usual
+.example {
+background-color: red;
+opacity: 0.8;
+}
+
+//hover
+.example:hover {
+opacity: 1;
+}
