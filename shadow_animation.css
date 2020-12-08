@@ -1,9 +1,23 @@
+// add an h1 to your html for the effect
+
 h1 {
   position: relative;
   animation: shadow 2s;
   text-align: center;
+  font-family: sans-serif;
 }
 @keyframes shadow {
    from {text-shadow: 3px 1px 3px #000000;}
    to {text-shadow: 2px 5px 7px rgba(0,0,0,0.0)}
 }
+
+/*
+
+example:
+
+<div id = "container">
+<h1>super cool shadows!</h1>
+<p>Keyframes Are Cool!</p>
+</div>
+
+*/
