@@ -1,4 +1,4 @@
-  var text = document.getElementById('c')
+      var text = document.getElementById('c')
       var me = document.getElementById("user");
       var text2 = document.getElementById('user2')
       var me2 = document.getElementById("c2");
